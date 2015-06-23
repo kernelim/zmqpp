@@ -11,6 +11,7 @@ BuildRoot:      %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 BuildRequires:  gcc-c++
 BuildRequires:  zeromq3-devel
 BuildRequires:  boost-devel
+BuildRequires:  libsodium-devel
 
 %description
 This C++ binding for 0mq/zmq is a 'high-level' library that hides most of
